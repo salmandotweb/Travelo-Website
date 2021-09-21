@@ -683,6 +683,9 @@ input[type="text"] {
   .footer{
     padding: 5rem 2rem;
   }
+  .header__showcase-heading{
+    font-size: 3.5rem;
+  }
 }
 @media (max-width: 500px){
   .main-headings{
