@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Travelo</title>
+  </head>
+  <body>
+    <!-- start of header -->
+    <header id="header" class="header">
+      <nav class="navbar active">
+        <a class="navbar__logo" href="#"
+          ><img src="images/main-logo.png" alt=""
+        /></a>
+        <ul class="navbar__links">
+          <li class="active"><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#places">Places</a></li>
+          <li><a href="#careers">Careers</a></li>
+          <li><a href="#blogs">Blog</a></li>
+        </ul>
+        <button class="navbar__btn btn">Connect</button>
+        <button class="navbar__menuBtn btn"><i class="fas fa-bars"></i></button>
+      </nav>
+      <div class="mobile-menu">
+        <ul class="mobile-navbar__links">
+          <li class="active"><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#places">Places</a></li>
+          <li><a href="#careers">Careers</a></li>
+          <li><a href="#blogs">Blog</a></li>
+        </ul>
+        <button class="mobile__menuBtn btn"><i class="fas fa-bars"></i></button>
+      </div>
+      <div class="header__showcase">
+        <h1 class="header__showcase-heading" data-aos="fade-right">Travel to explore</h1>
+        <p class="header__showcase-subHeading" data-aos="fade-left">
+          Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do
+          Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ultricies
+          Mi Eget Mauris.
+        </p>
+        <div class="header__showcase-bar" data-aos="fade-up">
+          <div class="showcase__location">
+            <p>Where you want to go</p>
+            <div class="location-input">
+              <i class="fas fa-search"></i>
+              <input type="text" placeholder="Search your location" />
+            </div>
+          </div>
+          <div class="showcase__check-in">
+            <p>Check-in</p>
+            <input type="text" placeholder="Add Date" />
+          </div>
+          <div class="showcase__check-out">
+            <p>Check-out</p>
+            <input type="text" placeholder="Add Date" />
+          </div>
+          <button class="exploreBtn btn">Explore Now</button>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+    <!-- start of offering section -->
+    <section id="about" class="offering-section">
+      <div class="offering-cards__container">
+        <div class="offering-card" data-aos="zoom-in">
+          <i class="fas fa-award"></i>
+          <h4>Get Best Prices</h4>
+          <p>
+            Pay through our application and save thousands and get amazing
+            rewards
+          </p>
+        </div>
+        <div class="offering-card" data-aos="zoom-in">
+          <i class="fas fa-disease"></i>
+          <h4>Covid Safe</h4>
+          <p>
+            We have all the curated hotels that have all the precaution for a
+            corvid safe environment
+          </p>
+        </div>
+        <div class="offering-card" data-aos="zoom-in">
+          <i class="far fa-credit-card"></i>
+          <h4>Get Best Prices</h4>
+          <p>
+            Pay through our application and save thousands and get amazing
+            rewards
+          </p>
+        </div>
+        <div class="offering-card" data-aos="zoom-in">
+          <i class="fas fa-street-view"></i>
+          <h4>Get Best Prices</h4>
+          <p>
+            Pay through our application and save thousands and get amazing
+            rewards
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end of offering section -->
+    <!-- start of recommendation section -->
+    <section id="places" class="recommendation-section">
+      <h1 class="main-headings" data-aos="fade-right">Recommended Destination</h1>
+      <ul class="recommendation__tabs">
+        <li class="active cardBtn-1" data-aos="zoom-in"><a href="#">The Weekend Break</a></li>
+        <li class="cardBtn-2" data-aos="zoom-in"><a href="#">The Package Holiday</a></li>
+        <li class="cardBtn-3" data-aos="zoom-in"><a href="#">The Group Tour</a></li>
+        <li class="cardBtn-4" data-aos="zoom-in"><a href="#">Long Term Slow Travel</a></li>
+      </ul>
+      <div class="recommendation__cards-container active card-1">
+        <!-- start of card -->
+        <div class="recommended__card" data-aos="zoom-in">
+          <div class="img__box">
+            <img src="images/Singapore.png" alt="" />
+          </div>
+          <h4>Singapore</h4>
+          <p>Singapore Island city-state in maritime Southeast Asia.</p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card" data-aos="zoom-in">
+          <div class="img__box">
+            <img src="images/Thailand.png" alt="" />
+          </div>
+          <h4>Thailand</h4>
+          <p>
+            Thailand is a Southeast Asian country. It's known for tropical
+            beaches
+          </p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card" data-aos="zoom-in">
+          <div class="img__box">
+            <img src="images/Paris.png" alt="" />
+          </div>
+          <h4>Paris</h4>
+          <p>
+            Paris, France's capital, is a major European city and a global
+            center for art
+          </p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card" data-aos="zoom-in">
+          <div class="img__box">
+            <img src="images/New Zealand.png" alt="" />
+          </div>
+          <h4>New Zealand</h4>
+          <p>
+            New Zealand is an island country in the southwestern Pacific Ocean
+          </p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card" data-aos="zoom-in">
+          <div class="img__box">
+            <img src="images/Bora Bora.png" alt="" />
+          </div>
+          <h4>Bora Bora</h4>
+          <p>
+            Bora Bora is a small South Pacific island northwest of Tahiti in
+            French Polynesia.
+          </p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card" data-aos="zoom-in">
+          <div class="img__box">
+            <img src="images/Singapore.png" alt="" />
+          </div>
+          <h4>London</h4>
+          <p>London, the capital of England and the United Kingdom.</p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+      </div>
+      <div class="recommendation__cards-container card-2">
+        <!-- start of card -->
+        <div class="recommended__card" data-aos="zoom-in">
+          <div class="img__box">
+            <img src="images/Bora Bora.png" alt="" />
+          </div>
+          <h4>Bora Bora</h4>
+          <p>
+            Bora Bora is a small South Pacific island northwest of Tahiti in
+            French Polynesia.
+          </p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card" data-aos="zoom-in">
+          <div class="img__box">
+            <img src="images/New Zealand.png" alt="" />
+          </div>
+          <h4>New Zealand</h4>
+          <p>
+            New Zealand is an island country in the southwestern Pacific Ocean.
+          </p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card" data-aos="zoom-in">
+          <div class="img__box">
+            <img src="images/London.png" alt="" />
+          </div>
+          <h4>London</h4>
+          <p>London, the capital of England and the United Kingdom</p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card" data-aos="zoom-in">
+          <div class="img__box">
+            <img src="images/Paris.png" alt="" />
+          </div>
+          <h4>Paris</h4>
+          <p>
+            Paris, France's capital, is a major European city and a global
+            center for art
+          </p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card" data-aos="zoom-in">
+          <div class="img__box">
+            <img src="images/Thailand.png" alt="" />
+          </div>
+          <h4>Thailand</h4>
+          <p>
+            Thailand is a Southeast Asian country. It's known for tropical
+            beaches
+          </p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card" data-aos="zoom-in">
+          <div class="img__box">
+            <img src="images/Singapore.png" alt="" />
+          </div>
+          <h4>Singapore</h4>
+          <p>
+            Singapore, officially the Republic of Singapore, is a sovereign
+            island.
+          </p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+      </div>
+      <div class="recommendation__cards-container card-3">
+        <!-- start of card -->
+        <div class="recommended__card">
+          <div class="img__box">
+            <img src="images/Thailand.png" alt="" />
+          </div>
+          <h4>Thailand</h4>
+          <p>Singapore Island city-state in maritime Southeast Asia.</p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card">
+          <div class="img__box">
+            <img src="images/Paris.png" alt="" />
+          </div>
+          <h4>Paris</h4>
+          <p>
+            Thailand is a Southeast Asian country. It's known for tropical
+            beaches
+          </p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card">
+          <div class="img__box">
+            <img src="images/New Zealand.png" alt="" />
+          </div>
+          <h4>New Zealand</h4>
+          <p>
+            Paris, France's capital, is a major European city and a global
+            center for art
+          </p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card">
+          <div class="img__box">
+            <img src="images/Bora Bora.png" alt="" />
+          </div>
+          <h4>Bora Bora</h4>
+          <p>
+            New Zealand is an island country in the southwestern Pacific Ocean
+          </p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card">
+          <div class="img__box">
+            <img src="images/London.png" alt="" />
+          </div>
+          <h4>London</h4>
+          <p>
+            Bora Bora is a small South Pacific island northwest of Tahiti in
+            French Polynesia.
+          </p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card">
+          <div class="img__box">
+            <img src="images/Thailand.png" alt="" />
+          </div>
+          <h4>Singapore</h4>
+          <p>London, the capital of England and the United Kingdom.</p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+      </div>
+      <div class="recommendation__cards-container card-4">
+        <!-- start of card -->
+        <div class="recommended__card">
+          <div class="img__box">
+            <img src="images/Singapore.png" alt="" />
+          </div>
+          <h4>Singapore</h4>
+          <p>Singapore Island city-state in maritime Southeast Asia.</p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card">
+          <div class="img__box">
+            <img src="images/Thailand.png" alt="" />
+          </div>
+          <h4>Thailand</h4>
+          <p>
+            Thailand is a Southeast Asian country. It's known for tropical
+            beaches
+          </p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card">
+          <div class="img__box">
+            <img src="images/Paris.png" alt="" />
+          </div>
+          <h4>Paris</h4>
+          <p>
+            Paris, France's capital, is a major European city and a global
+            center for art
+          </p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card">
+          <div class="img__box">
+            <img src="images/New Zealand.png" alt="" />
+          </div>
+          <h4>New Zealand</h4>
+          <p>
+            New Zealand is an island country in the southwestern Pacific Ocean
+          </p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card">
+          <div class="img__box">
+            <img src="images/Bora Bora.png" alt="" />
+          </div>
+          <h4>Bora Bora</h4>
+          <p>
+            Bora Bora is a small South Pacific island northwest of Tahiti in
+            French Polynesia.
+          </p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="recommended__card">
+          <div class="img__box">
+            <img src="images/Singapore.png" alt="" />
+          </div>
+          <h4>London</h4>
+          <p>London, the capital of England and the United Kingdom.</p>
+          <div class="recommended__price">
+            <div class="recommended__price-icons">
+              <div><i class="far fa-building"></i></div>
+              <div><i class="fas fa-utensils"></i></div>
+              <div><i class="fas fa-plane"></i></div>
+            </div>
+            <p class="price">$ 38,800</p>
+          </div>
+          <div class="recommended__distance">
+            <p>1000 Kms</p>
+            <p>Approx 2 night trip</p>
+          </div>
+        </div>
+        <!-- end of card -->
+      </div>
+    </section>
+    <!-- end of recommendation section -->
+
+    <!-- start of blogs section -->
+    <section id="blogs" class="blog-section">
+      <h1 class="main-headings" data-aos="fade-right">Blogs</h1>
+      <div class="blogs-container">
+        <div class="main-blog" data-aos="zoom-in">
+          <h1>The Ultimate Guide to Climbing Mount Kilimanjaro</h1>
+        </div>
+        <div class="sub-blogs">
+          <div class="sub-blog1 blog blog-card" data-aos="zoom-in">
+            <h1>12 Things I’d Tell Any New Traveler</h1>
+          </div>
+          <div class="sub-blog2 blog blog-card" data-aos="zoom-in">
+            <h1>The Ultimate Packing List for Female Travelers</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of blogs section -->
+
+    <!-- start of happy customers section -->
+    <section id="careers" class="customers-section">
+      <h1 class="main-headings" data-aos="fade-right">Happy Customers</h1>
+      <div class="customers-carousel">
+        <!-- start of card -->
+        <div class="customer-card">
+          <p class="review">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, nulla nihil. Vel, placeat quae corrupti ab quos architecto iusto delectus."</p>
+          <div class="customer-profile">
+            <div class="profile-img">
+              <img src="images/profile-1.png" alt="">
+            </div>
+            <div class="about-profile">
+              <h4>Shalini Singh</h4>
+              <p>Project Manger flyhigh</p>
+            </div>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="customer-card">
+          <p class="review">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, nulla nihil. Vel, placeat quae corrupti ab quos architecto iusto delectus."</p>
+          <div class="customer-profile">
+            <div class="profile-img">
+              <img src="images/profile-1.png" alt="">
+            </div>
+            <div class="about-profile">
+              <h4>Shalini Singh</h4>
+              <p>Project Manger flyhigh</p>
+            </div>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="customer-card">
+          <p class="review">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, nulla nihil. Vel, placeat quae corrupti ab quos architecto iusto delectus."</p>
+          <div class="customer-profile">
+            <div class="profile-img">
+              <img src="images/profile-1.png" alt="">
+            </div>
+            <div class="about-profile">
+              <h4>Shalini Singh</h4>
+              <p>Project Manger flyhigh</p>
+            </div>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="customer-card">
+          <p class="review">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, nulla nihil. Vel, placeat quae corrupti ab quos architecto iusto delectus."</p>
+          <div class="customer-profile">
+            <div class="profile-img">
+              <img src="images/profile-1.png" alt="">
+            </div>
+            <div class="about-profile">
+              <h4>Shalini Singh</h4>
+              <p>Project Manger flyhigh</p>
+            </div>
+          </div>
+        </div>
+        <!-- end of card -->
+        <!-- start of card -->
+        <div class="customer-card">
+          <p class="review">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, nulla nihil. Vel, placeat quae corrupti ab quos architecto iusto delectus."</p>
+          <div class="customer-profile">
+            <div class="profile-img">
+              <img src="images/profile-1.png" alt="">
+            </div>
+            <div class="about-profile">
+              <h4>Shalini Singh</h4>
+              <p>Project Manger flyhigh</p>
+            </div>
+          </div>
+        </div>
+        <!-- end of card -->
+      </div>
+    </section>
+    <!-- end of happy customers section -->
+
+    <!-- start of footer -->
+    <footer class="footer">
+      <div class="copyright">Copyright © 2020 Salmandotweb. All rights reserved</div>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
