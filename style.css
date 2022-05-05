@@ -538,11 +538,6 @@ input[type="text"] {
 /* end of footer */
 
 /* start of media queries */
-@media (min-width: 1440px){
-  html{
-    font-size: 100%;
-  }
-}
 @media (max-width: 1300px) {
   .header__showcase-subHeading {
     max-width: 60%;
